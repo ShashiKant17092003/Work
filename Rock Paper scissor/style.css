@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+#container{
+    height: 95vh;
+    width:100wh;
+    align-items: center;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+#box{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.selectors{
+    height: 36%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon{
+    height:150px;
+    width: 150px;
+
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rock{
+    background-color: rgb(255, 50, 50);
+}
+#paper{
+    background-color: rgb(208, 33, 208);
+}
+#scissor{
+    background-color: aqua;
+}
+
+.hand{
+    font-size: 90px;
+}
+.hand:hover{
+    font-size: 110px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+.score{
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-1{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5%; 
+    font-size: 25px;
+}
+
+
+.status{
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.start,.draw{
+        border: 1px solid rgb(13, 13, 47);
+        background-color: rgb(13, 13, 47);
+}
+
+.win{
+        border: 1px solid rgb(5, 207, 5);
+        background-color: rgb(5, 207, 5);
+}
+
+.lose{
+    border: 1px solid red;
+    background-color: red;
+}
+
+
+
+.result{
+    width: fit-content;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.rest{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.refresh{
+    font-size:30px;
+    padding: 1%;
+}
+
+
+.refresh:hover{
+    animation-name: Ro;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes Ro{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+#extra{
+    height: 10%;
+}
+

@@ -1,0 +1,30 @@
+.containt-box{
+    width: 80vmin;
+    height: 90vmin;
+    border-radius: 3px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11.1111%;
+    width: 100%;
+    background-color: rgb(2, 2, 49);
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    color: white;
+    font-size: 30px;
+}
+.current-score{
+    margin-left: 2%;
+}
+.highest-score{
+    margin-right: 2%;
+}
+.play-area{
+    height: 88.95%;
+    width: 100%;
+    background-color: rgb(1, 1, 164);
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
